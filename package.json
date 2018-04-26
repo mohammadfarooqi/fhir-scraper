@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start-download": "node download.js",
+    "start-upload": "node upload.js"    
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/mohammadfarooqi/fhir-scraper/issues"
   },
-  "homepage": "https://github.com/mohammadfarooqi/fhir-scraper#readme"
+  "homepage": "https://github.com/mohammadfarooqi/fhir-scraper#readme",
+  "dependencies": {
+    "moment": "^2.22.1",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
 }
